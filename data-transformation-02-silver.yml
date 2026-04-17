@@ -1,3 +1,30 @@
 ---
 attribute_groups:
+  - municipalities: &municipalities
+      - { name: type }
+      - { name: sub_type }
+      - { name: federal_state_id }
+      - { name: admin_district_id }
+      - { name: county_id }
+      - { name: association_id }
+      - { name: municipality_id }
+      - { name: municipality_name }
+      - { name: area_sqkm, type: float }
+      - { name: population_total, type: int }
+      - { name: population_male, type: int }
+      - { name: population_female, type: int }
+      - { name: population_per_sqkm, type: int }
+      - { name: zip_code }
+      - { name: center_lon, type: float }
+      - { name: center_lat, type: float }
+      - { name: travel_destination_key }
+      - { name: travel_destination_name }
+      - { name: degree_of_urbanization_key }
+      - { name: degree_of_urbanization_name }
 input_ports:
+  - id: germany-municipalities-2026-03
+    files:
+      - source_file_name: AuszugGV1QAktuell.xlsx
+        target_file_name: germany-municipalities-2026-03.xlsx
+        datasets:
+          - { target_file_name: germany-municipalities-2026-03.csv, sheet_name: Onlineprodukt_Gemeinden31032026, names: *municipalities, skip_rows: 6, dropna: False }
