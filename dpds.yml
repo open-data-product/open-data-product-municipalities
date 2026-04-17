@@ -14,7 +14,33 @@ info:
   description:
   contactPoints:
 interfaceComponents:
-  outputPorts: []
+  outputPorts:
+    - promises:
+      expectations:
+      obligations:
+      id: germany-municipalities-2026-03-csv
+      fullyQualifiedName: germany-municipalities-2026-03-csv
+      entityType:
+      name: ''
+      version:
+      displayName:
+      description:
+      componentGroup:
+      tags:
+      externalDocs:
+    - promises:
+      expectations:
+      obligations:
+      id: germany-municipalities-2026-03-parquet
+      fullyQualifiedName: germany-municipalities-2026-03-parquet
+      entityType:
+      name: ''
+      version:
+      displayName:
+      description:
+      componentGroup:
+      tags:
+      externalDocs:
   inputPorts:
     - promises:
       expectations:

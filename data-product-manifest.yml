@@ -33,7 +33,31 @@ transformation_steps:
   - name: Data aggregator
     path: https://github.com/open-data-product/open-data-product-python-lib/blob/main/opendataproduct/transform/data_aggregator.py
     description: aggregates data to be used as output ports
-output_ports: []
+output_ports:
+  - id: germany-municipalities-2026-03-csv
+    metadata:
+      name: Germany Municipalities 2026 03 Csv
+      owner: Open Data Product
+      description:
+      url: https://github.com/open-data-product/open-data-product-municipalities/tree/main/data/03-gold/germany-municipalities-2026-03-csv
+      license: CC-BY 4.0
+      updated: 2026-05-09
+      schema:
+    files:
+      - https://raw.githubusercontent.com/open-data-product/open-data-product-municipalities/main/data/03-gold/germany-municipalities-2026-03-csv/germany-municipalities-2026-03-ags.csv
+      - https://raw.githubusercontent.com/open-data-product/open-data-product-municipalities/main/data/03-gold/germany-municipalities-2026-03-csv/germany-municipalities-2026-03-ars.csv
+  - id: germany-municipalities-2026-03-parquet
+    metadata:
+      name: Germany Municipalities 2026 03 Parquet
+      owner: Open Data Product
+      description:
+      url: https://github.com/open-data-product/open-data-product-municipalities/tree/main/data/03-gold/germany-municipalities-2026-03-parquet
+      license: CC-BY 4.0
+      updated: 2026-05-09
+      schema:
+    files:
+      - https://raw.githubusercontent.com/open-data-product/open-data-product-municipalities/main/data/03-gold/germany-municipalities-2026-03-parquet/germany-municipalities-2026-03-ags.parquet
+      - https://raw.githubusercontent.com/open-data-product/open-data-product-municipalities/main/data/03-gold/germany-municipalities-2026-03-parquet/germany-municipalities-2026-03-ars.parquet
 observability:
   quality:
   operational:

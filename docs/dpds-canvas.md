@@ -22,6 +22,12 @@
 #### germany-municipalities-2026-03
 * fully qualified name: germany-municipalities-2026-03
 
+### Output Ports
+#### germany-municipalities-2026-03-csv
+* fully qualified name: germany-municipalities-2026-03-csv
+#### germany-municipalities-2026-03-parquet
+* fully qualified name: germany-municipalities-2026-03-parquet
+
 
 ---
 This Data Product Descriptor Specification canvas is based on [Data Product Descriptor Specification 1.0.0](https://dpds.opendatamesh.org/specifications/dpds/1.0.0/).

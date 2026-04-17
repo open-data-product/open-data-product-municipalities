@@ -74,7 +74,7 @@ known issues).
 
 ## License
 
-Source data distributed under TODO by TODO.
+Source data distributed under [Data Licence Germany – Attribution – Version 2.0](https://www.govdata.de/dl-de/by-2-0) by [Statistisches Bundesamt (Destatis), GV-ISys](https://www.destatis.de/DE/Home/_inhalt.html).
 
 Data product distributed under the [CC-BY 4.0 License](https://creativecommons.org/licenses/by/4.0/).
 See [LICENSE.md](./LICENSE.md) for more information.

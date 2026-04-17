@@ -29,6 +29,34 @@ name: Alle politisch selbständigen Gemeinden mit ausgewählten Merkmalen am 31.
 * [Data CSV converter](https://github.com/open-data-product/open-data-product-python-lib/blob/main/opendataproduct/transform/data_csv_converter.py) converts Excel files to CSV format
 * [Data aggregator](https://github.com/open-data-product/open-data-product-python-lib/blob/main/opendataproduct/transform/data_aggregator.py) aggregates data to be used as output ports
 
+## Output Ports
+
+### germany-municipalities-2026-03-csv
+name: Germany Municipalities 2026 03 Csv
+* owner: Open Data Product
+* url: https://github.com/open-data-product/open-data-product-municipalities/tree/main/data/03-gold/germany-municipalities-2026-03-csv
+* license: CC-BY 4.0
+* updated: 2026-05-09
+
+**Files**
+
+* [germany-municipalities-2026-03-ags.csv](https://raw.githubusercontent.com/open-data-product/open-data-product-municipalities/main/data/03-gold/germany-municipalities-2026-03-csv/germany-municipalities-2026-03-ags.csv)
+* [germany-municipalities-2026-03-ars.csv](https://raw.githubusercontent.com/open-data-product/open-data-product-municipalities/main/data/03-gold/germany-municipalities-2026-03-csv/germany-municipalities-2026-03-ars.csv)
+
+
+### germany-municipalities-2026-03-parquet
+name: Germany Municipalities 2026 03 Parquet
+* owner: Open Data Product
+* url: https://github.com/open-data-product/open-data-product-municipalities/tree/main/data/03-gold/germany-municipalities-2026-03-parquet
+* license: CC-BY 4.0
+* updated: 2026-05-09
+
+**Files**
+
+* [germany-municipalities-2026-03-ags.parquet](https://raw.githubusercontent.com/open-data-product/open-data-product-municipalities/main/data/03-gold/germany-municipalities-2026-03-parquet/germany-municipalities-2026-03-ags.parquet)
+* [germany-municipalities-2026-03-ars.parquet](https://raw.githubusercontent.com/open-data-product/open-data-product-municipalities/main/data/03-gold/germany-municipalities-2026-03-parquet/germany-municipalities-2026-03-ars.parquet)
+
+
 ## Classification
 
 **The nature of the exposed data (source-aligned, aggregate, consumer-aligned)**
