@@ -9,7 +9,7 @@
   <h1 align="center">Municipalities</h1>
 
   <p align="center">
-    Data product providing TODO
+    Data product providing a directory of municipalities
   </p>
 </p>
 
