@@ -6,9 +6,20 @@ metadata:
   description:
   url: https://github.com/open-data-product/open-data-product-municipalities
   license: CC-BY 4.0
-  updated:
+  updated: 2026-05-09
   schema:
 input_ports:
+  - id: germany-municipalities-2026-03
+    metadata:
+      name: Alle politisch selbständigen Gemeinden mit ausgewählten Merkmalen am 31.03.2026 (1. Quartal)
+      owner: Statistisches Bundesamt (Destatis)
+      description:
+      url: https://www.destatis.de/DE/Themen/Laender-Regionen/Regionales/Gemeindeverzeichnis/Administrativ/Archiv/GVAuszugQ/AuszugGV1QAktuell.html
+      license: Data Licence Germany – Attribution – Version 2.0
+      updated: 2026-02-25
+      schema: []
+    files:
+      - https://www.destatis.de/DE/Themen/Laender-Regionen/Regionales/Gemeindeverzeichnis/Administrativ/Archiv/GVAuszugQ/AuszugGV1QAktuell.xlsx?__blob=publicationFile&v=16
 transformation_steps:
   - name: Data extractor
     path: https://github.com/open-data-product/open-data-product-python-lib/blob/main/opendataproduct/extract/data_extractor.py
@@ -22,7 +33,7 @@ transformation_steps:
   - name: Data aggregator
     path: https://github.com/open-data-product/open-data-product-python-lib/blob/main/opendataproduct/transform/data_aggregator.py
     description: aggregates data to be used as output ports
-output_ports:
+output_ports: []
 observability:
   quality:
   operational:

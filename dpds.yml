@@ -1,0 +1,38 @@
+---
+dataProductDescriptor: data-product-descriptor
+info:
+  fullyQualifiedName: urn:dpds:opendataproduct:dataproducts:municipalities:1.0
+  name: Municipalities
+  version: '1.0'
+  domain: domain
+  owner:
+    id: Open Data Product
+    name: Open Data Product
+  id: municipalities
+  entityType:
+  displayName: Municipalities
+  description:
+  contactPoints:
+interfaceComponents:
+  outputPorts: []
+  inputPorts:
+    - promises:
+      expectations:
+      obligations:
+      id: germany-municipalities-2026-03
+      fullyQualifiedName: germany-municipalities-2026-03
+      entityType:
+      name: ''
+      version:
+      displayName:
+      description:
+      componentGroup:
+      tags:
+      externalDocs:
+  discoveryPorts:
+  observabilityPorts:
+  controlPorts:
+internalComponents:
+components:
+tags:
+externalDocs:
